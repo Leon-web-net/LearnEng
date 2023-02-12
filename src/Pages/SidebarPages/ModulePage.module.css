@@ -1,0 +1,76 @@
+.title {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.Module_Overview {
+  display: flex;
+}
+
+.moduleOverall {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-right: 10%;
+  margin-left: 0%;
+  column-gap: 5%;
+  justify-content: center;
+  align-items: center;
+}
+
+.moduleContainer {
+  margin-bottom: 50px;
+  justify-content: center;
+  max-width: 400px;
+}
+
+.module {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  background-color: rgb(191, 191, 191);
+  padding: 5px 50px;
+  text-align: center;
+  border-bottom: 1px double rgba(30, 214, 168, 1);
+  padding: 10px 5px;
+}
+
+.moduleContainer a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.moduleImage {
+  height: 100px;
+}
+
+.moduleOverview {
+  background-color: rgba(127, 255, 212, 0.264);
+  transition: all 2s ease-in-out;
+}
+
+.info {
+  display: flex;
+  padding-left: 8px;
+  height: 30px;
+  border-bottom: 1px solid rgb(158, 158, 158);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.info:hover {
+  background-color: grey;
+  color: white;
+}
+
+.infoText {
+  padding-left: 8px;
+  font-style: italic;
+  color: rgb(159, 159, 159);
+}
+
+.Overview {
+}
+
+.OverviewText {
+  background-color: white;
+}
